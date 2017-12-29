@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="controller.SixPageController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="titleText" layoutX="24.0" layoutY="43.0" stroke="#a11212" strokeType="OUTSIDE" strokeWidth="0.0" text="Video about JAVA" textAlignment="CENTER" wrappingWidth="460.21875">
+         <font>
+            <Font size="12.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Text>
+      <ImageView fitHeight="49.0" fitWidth="53.0" layoutX="537.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo/miracleIT.png" />
+         </image>
+      </ImageView>
+      <MediaView fx:id="mvFinish" fitHeight="250.0" fitWidth="470.0" layoutX="24.0" layoutY="95.0" />
+      <JFXButton fx:id="btnPlay" layoutX="37.0" layoutY="345.0" prefHeight="27.0" prefWidth="83.0" text="Play" />
+      <JFXButton fx:id="btnPause" layoutX="173.0" layoutY="345.0" prefHeight="27.0" prefWidth="73.0" text="Pause" />
+      <JFXButton fx:id="btnStop" layoutX="300.0" layoutY="345.0" prefHeight="27.0" prefWidth="73.0" text="Stop" />
+      <JFXButton fx:id="finish" layoutX="527.0" layoutY="372.0" text="Finish" />
+   </children>
+</AnchorPane>

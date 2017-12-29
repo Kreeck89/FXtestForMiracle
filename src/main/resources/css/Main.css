@@ -1,0 +1,25 @@
+.button-start {
+    -fx-background-color: #3F51B5 ;
+    -fx-text-fill: WHITE;
+}
+
+.button-start:hover {
+    -fx-background-color: rgb(77,102,204);
+}
+
+.button-start:pressed {
+    -fx-background-color: lightseagreen;
+}
+
+.button-next {
+    -fx-background-color: #3F51B5 ;
+    -fx-text-fill: WHITE;
+}
+
+.button-next:hover {
+    -fx-background-color: rgb(77,102,204);
+}
+
+.button-next:pressed {
+    -fx-background-color: lightseagreen;
+}

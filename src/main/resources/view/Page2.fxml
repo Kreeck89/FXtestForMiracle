@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="controller.SeconPageController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXCheckBox fx:id="cb1" layoutX="40.0" layoutY="73.0" text="Инкапсуляция">
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXCheckBox>
+      <Text fx:id="titleText" layoutX="31.0" layoutY="35.0" stroke="#a11212" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1: Основы ООП в JAVA?" wrappingWidth="460.21875">
+         <font>
+            <Font size="12.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Text>
+      <ImageView fitHeight="49.0" fitWidth="53.0" layoutX="537.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo/miracleIT.png" />
+         </image>
+      </ImageView>
+      <JFXCheckBox fx:id="cb2" layoutX="40.0" layoutY="109.0" text="Наследование">
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXCheckBox>
+      <JFXCheckBox fx:id="cb3" layoutX="40.0" layoutY="142.0" text="Многопоточность">
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXCheckBox>
+      <JFXCheckBox fx:id="cb4" layoutX="40.0" layoutY="179.0" text="Примитивность">
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXCheckBox>
+      <JFXCheckBox fx:id="cb5" layoutX="40.0" layoutY="216.0" text="Полиморфизм">
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXCheckBox>
+      <JFXCheckBox fx:id="cb6" layoutX="40.0" layoutY="252.0" text="Абстракция">
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXCheckBox>
+      <JFXButton fx:id="btnNext" styleClass="button-next" layoutX="442.0" layoutY="372.0" prefHeight="31.0" prefWidth="152.0" text="check">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXButton>
+   </children>
+</AnchorPane>
